@@ -4,8 +4,8 @@ const ListGroup = ({
   items,
   textProperty,
   valueProperty,
-  onItemSelect,
-  selectedItem
+  selectedItem,
+  onItemSelect
 }) => {
   return (
     <ul className="list-group">
